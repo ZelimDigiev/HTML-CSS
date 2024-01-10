@@ -1,3 +1,44 @@
-*{
+/* *{
     box-sizing: border-box;
+} */
+body {
+    background-image: url(./image/crystal-cubism-2-1.jpg);
+    margin: 0;
+}
+.products-item {
+    background-color: blueviolet;
+    color: wheat;
+    padding: 10px 15px;
+    margin: 0px 0 50px;
+    height: 100vh;
+    
+}
+.products-item:first-child {
+    background: url(./image/152894f787cd11ee973e363fac71b015_upscaled.jpeg) no-repeat, url(./image/istockphoto-813351766-1024x1024.jpg) no-repeat;
+    background-position: top center, bottom center;
+
+    background-size: 500px, 200px ;
+}
+
+.products-item:nth-child(2) {
+    background: url(./image/152894f787cd11ee973e363fac71b015_upscaled.jpeg) no-repeat;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.product-item__title {
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+
+    margin: 10px auto;
+
+    padding: 10px 15px;
+}
+
+
+.products-item__description {
+
+
 }
