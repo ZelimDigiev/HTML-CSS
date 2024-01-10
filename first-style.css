@@ -1,6 +1,14 @@
 * {
    box-sizing: border-box; 
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./Fonts/Montserrat-Italic.ttf) format('truetype');
+    font-weight: normal;   /*Насыщенность шрифта*/
+    font-style: normal; /*Так скажем вид шрифта т.е. курсив он или нет ну итд */
+}
 
 h2 {
     text-transform: uppercase;
@@ -20,4 +28,13 @@ p {
 }
 #heading {
     border-bottom: 1px solid #000;
+}
+
+.fontlist {
+    list-style: none;
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+
+.size {
+    font-family: 'Montserrat', sans-serif;
 }
