@@ -1,0 +1,85 @@
+html, 
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    margin-right: 10px;
+    color: lightblue;
+    text-decoration: none;
+} 
+
+a::before {
+    content: '@';
+}
+a::after{
+    content: '\1F48D';
+    margin-left: 4px;
+}
+
+a::selection {
+    background-color: greenyellow;
+    color: black;
+}
+
+/* a:link:hover {
+    color: orange;
+}
+a:visited:hover {
+    color: blue;
+}
+
+/*  Также можно выбор по атрибуту с помощью квадратными скобками*/
+/* a:not([href="https://www.google.com"]) {  
+    color:firebrick ;
+} */
+
+/* a:not([target]) {  
+    color:firebrick ;
+}
+a[href="https://www.google.com"] {
+    text-transform: uppercase;
+}
+ */
+
+/* input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 1px solid blue;
+} */
+
+ .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product__item {
+    width: 240px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: cornflowerblue;
+} 
+
+.product__item:first-child {
+    background-color: darkkhaki;
+}
+.product__item:last-child {
+    background-color: darkgray;
+}
+
+.product__item:nth-child(-n + 3) {
+    margin-top: 0;
+}
+
+.product__item:nth-child(3n) {
+    background-color: gold;
+    margin-right: 0;
+}
