@@ -61,6 +61,7 @@ tbody {
 
 .widget {
     background-color: antiquewhite;
+    padding: 20px 15px;
 }
 .widget1 {
     background-color: khaki;
